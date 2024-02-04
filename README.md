@@ -18,11 +18,11 @@ Create a `.env` file based on the example `.env.example` file.
 python openai_caption.py ["IMAGE_URL"] ["PROMPT"]
 ```
 
-```IMAGE_URL``` is the URL of the image you want to caption. [(Default image)](https://replicate.delivery/pbxt/IqiPBXiSDTHbjN61b809YMPWCB4OBkxXPGmqEiKA7K1pyErB/yud.png")
+```IMAGE_URL``` is the URL of the image you want to caption. [(Default image)](https://replicate.delivery/pbxt/IqiPBXiSDTHbjN61b809YMPWCB4OBkxXPGmqEiKA7K1pyErB/yud.png)
 
 Default ```PROMPT``` is ```"describe this image"```. But you can add an alternative prompt here if you want it to guide the captioning.
 
-### For open-source models
+### For pen-source models
 
 ```bash
 python main.py ["MODEL_ID"] ["IMAGE_URL"] ["PROMPT"]
